@@ -1,0 +1,13 @@
+//EVENTS
+###
+GET http://localhost:3000/events
+###
+POST http://localhost:3000/events
+Content-Type: application/json
+
+{
+    "name":"The Eras Tour",
+    "description":"Show da satânica Taylor Swift",
+    "date":"2024-11-12T00:00:00",
+    "price":1000
+}
